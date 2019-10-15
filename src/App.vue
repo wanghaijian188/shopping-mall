@@ -1,8 +1,11 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <!-- <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link> -->
+      <div class="hade_top">
+
+      </div>
     </div>
     <router-view />
   </div>
@@ -21,7 +24,7 @@
   color: #2c3e50;
 }
 #nav {
-  padding: 30px;
+ 
   a {
     font-weight: bold;
     color: #2c3e50;
@@ -29,5 +32,10 @@
       color: #42b983;
     }
   }
+}
+.hade_top{
+  width: 100%;
+  height: 26px;
+  background-color:#e6e6e6;
 }
 </style>
