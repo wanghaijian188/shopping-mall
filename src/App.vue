@@ -3,7 +3,7 @@
     <div id="nav">
       <!-- <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> -->
-      <div class="hade_top">
+      <div class="head_top">
 
       </div>
     </div>
@@ -33,7 +33,7 @@
     }
   }
 }
-.hade_top{
+.head_top{
   width: 100%;
   height: 26px;
   background-color:#e6e6e6;
