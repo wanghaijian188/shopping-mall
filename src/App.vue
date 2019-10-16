@@ -1,18 +1,21 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <!-- <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> -->
-      <div class="head_top">
-
-      </div>
-    </div>
+    <headtop />
     <router-view />
   </div>
 </template>
 
+<script>
+import headtop from './components/HeadTop'
+export default {
+  components:{
+    headtop
+  }
+}
+</script>
+
 <style lang="scss">
-*{
+* {
   padding: 0;
   margin: 0;
 }
@@ -24,7 +27,7 @@
   color: #2c3e50;
 }
 #nav {
- 
+  padding: 30px;
   a {
     font-weight: bold;
     color: #2c3e50;
@@ -32,10 +35,5 @@
       color: #42b983;
     }
   }
-}
-.head_top{
-  width: 100%;
-  height: 26px;
-  background-color:#e6e6e6;
 }
 </style>
